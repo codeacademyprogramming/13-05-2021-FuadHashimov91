@@ -1,19 +1,16 @@
 {
-  "name": "001numbers-to-words",
-  "version": "1.0.1",
-  "description": "convert numbers to words",
-  "main": "index.js",
+  "name": "13-05-2021-fuadhashimov91",
+  "version": "1.0.0",
+  "description": "Table of Contents :",
+  "main": "script.js",
   "scripts": {
-    "start": "node script.js",
+    "start":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "no"
   },
-  "keywords": [
-    "numbersToword"
-  ],
   "author": "H.F",
   "license": "ISC"
 }

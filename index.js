@@ -9,7 +9,7 @@ function numberToStr(n) {
         word, 
         words;
 
-    console.log(string);
+    //console.log(string);
 
     if (parseInt(string) === 0) {
         return 'sıfır';
@@ -32,16 +32,16 @@ function numberToStr(n) {
         //daxil olan eded 95590 ve chanks[] = [590,95]; ela;
     }
     arrLen = arr.length; // == 2
-    console.log(arrLen);
+    //console.log(arrLen);
     if (arrLen > yuzluk.length) { //yuzluk length === 4
         //console.log("bosluq");
         return '';
     }
     words = [];
-    console.log(word);
+    //console.log(word);
 
 
-    
+
     for (i = 0; i < arrLen; i++) { //arrLen == 2  [95,590]
         data = parseInt(arr[i]);  // 
         if (data) {
@@ -51,24 +51,31 @@ function numberToStr(n) {
 
             if (arrInto[1] === 1) {
                 arrInto[0] += 10;
+                 //console.log(arrInto);
             }
             if ((word = yuzluk[i])) {
                 words.push(word);
+                 //console.log(words);
             }
 
             if ((word = təklik[arrInto[0]])) {
                 words.push(word);
+                //console.log(words);
             }
 
             if ((word = onluq[arrInto[1]])) {
                 words.push(word);
+                 //console.log(words);
             }
 
             if ((word = təklik[arrInto[2]])) {
                 words.push(word + '   yuz  ');
+                 //console.log(words);
             }
         }
     }
+    //console.log(words.reverse());
     return words.reverse().join('   ');
+    
 }
 console.log(numberToStr(55555));
