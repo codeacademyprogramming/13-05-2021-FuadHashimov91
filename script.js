@@ -1,1 +1,3 @@
-console.log(15);
+function Test(x,y) {
+    return x + y;
+}
