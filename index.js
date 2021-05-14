@@ -15,7 +15,7 @@ function numberToStr(n) {
         return 'sıfır';
     }
 
-    təklik = ['', 'bir', 'iki', 'üç', 'dörd', 'beş', 'altı', 'yeddi', 'səkkiz', 'doqquz', 'ten', 'on'];
+    təklik = ['', 'bir', 'iki', 'üç', 'dörd', 'beş', 'altı', 'yeddi', 'səkkiz', 'doqquz', 'on'];
 
     onluq = ['', 'yüz', 'iyirmi', 'otuz', 'qırx', 'əlli', 'altmış', 'yetmiş', 'səksən', 'doxsan'];
 
